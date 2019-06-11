@@ -8,6 +8,11 @@
   font-family: 'Homemade Apple', cursive;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -332,6 +337,7 @@ padding-bottom: 20px;
   align-content: center;
   align-items: center;
   height: 700px;
+  width: 1400px;
   background-image: url(images/sryjon_background_side.gif);
   background-repeat: no-repeat;
   box-shadow: 4px 4px 20px black;
